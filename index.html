@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Open Source collaboration with GitHub</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<a class="fork-reveal" style="display: block;" href="https://github.com/lirantal"><img style="position: absolute; top: 0; right: 0; border: 0;" src="img/fork-ribbon.png" alt="Fork reveal.js on GitHub"></a>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Open Source</h1>
+					<h1> & GitHub</h1>
+					<hr/>
+					<p>Subtle introduction to Open Source</p>
+					<p>and collaborating on GitHub</p>
+					<p>
+						<small>Created by <a href="https://il.linkedin.com/in/talliran">Liran Tal</a> / 
+						<a href="http://github.com/lirantal">@lirantal</a></small>
+					</p>
+					<iframe src="http://githubbadge.appspot.com/lirantal?a=0" style="border: 0;height: 280px;;overflow: hidden;" frameBorder="0"></iframe>
+				</section>
+
+				<section>
+					<h2>Today...</h2>
+					<ul>
+						<li class="fragment">What is this Open Source thing</li>
+						<li class="fragment">How you can you make an impact?</li>
+						<li class="fragment">Contributing to Open Source projects using GitHub</li>
+					</ul>
+
+					<aside class="notes">
+					* No intense free software vs open source philosophies war or licenses
+					* Collaborating on open source projects through GitHub platform for Code Reviews, Comments, Workflow
+					</aside>
+				</section>
+
+				<section>
+					<section>
+						<h2>Short Quiz</h2>
+						<ul>
+							<li class="fragment"><a href="">Have you contributed to Open Source in the past?</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Short Quiz</h2>
+						<ul>
+							<li class="fragment"><a href="">Do you know what is GitHub?</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Short Quiz</h2>
+						<ul>
+							<li class="fragment"><a href="">Do you have a GitHub account?</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>Short Quiz</h2>
+						<p>
+						<ul>
+							<li>Which super power would you have- <br/> <a href="">fly</a> or <a href="">being invisible</a>?</li>
+						</ul>
+						</p>
+						<img height="450" data-src="img/superhero.jpg">
+						<aside class="notes">
+						credits: superdad picture from paurian's flickr account: https://www.flickr.com/photos/paurian/3727982365
+						</aside>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>About Me</h2>
+						<ul>
+							<li class="fragment">R&D Team Lead at <a href="https://hpln.hpe.com">HPE Live Network</a></li>
+							<li class="fragment">The enterprise content <a href="https://hpln.hpe.com">marketplace</a> for HPE Software</li>
+							<li class="fragment">We do a lot of <a href="">NodeJS</a>, <a href="">Java</a>, <a href="">AngularJS</a>, <a href="">MongoDB, ElasticSearch</a>, and our own <a href="">HPE UI Showcase</a></li>
+						</ul>
+					</section>
+					<section>
+						<h2>About Me</h2>
+						<ul>
+							<li><a href="https://www.github.com/lirantal">Actively contributing to Open Source projects</a></li>
+							<img data-src="img/lirantal-github-profile.png">
+						</ul>
+					</section>
+					<section>
+						<h2>About Me</h2>
+						<ul>
+							<li><a href="https://www.github.com/lirantal">Contributing Open Source code to HPE Software products</a></li>
+							<img data-src="img/lirantal-hpe-open-source-list.png">
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section data-background="img/subtle.jpg">
+						<h2>Subtle Introduction to</h2>
+						<h2>Open Source</h2>
+						<aside class="notes">
+						image source: tinyfishy flickr account: https://www.flickr.com/photos/tinyfishy/442112564
+						</aside>
+					</section>
+					<section>
+						<h2>Free Software Foundation</h2>
+						<img data-src="img/stallman.png">
+					</section>
+					<section>
+						<h2>Free Software Foundation</h2>
+						<p>
+						<img height="200" data-src="img/stallman.png">
+						</p>
+						<q>
+						<a href="">Freedom</a> to <a href="">run</a> the program, for any purpose, to <a href="">study and change</a> it, and to <a href="">re-distribute copies</a> of it as is or modified, all without requiring any consent"
+						</q>
+						<aside class="notes">
+						* Free Software is a Social Movement
+						* Ideology of free software
+						</aside>
+					</section>
+					<section>
+						<p>
+						<img data-src="img/linux-communism1.png">
+						</p>
+						<aside class="notes">
+						image credits to an1r0n from http://an1r0n.deviantart.com/art/Linux-Communism-66194392
+						</aside>
+					</section>
+					<section>
+						<p>
+						<img data-src="img/ballmer1.jpg">
+						</p>
+						<aside class="notes">
+						image credits to wikipedia
+						</aside>
+					</section>
+					<section>
+						<p>
+						<img height="300" data-src="img/ballmer1.jpg">
+
+						</p>
+						<div>2001 interview:</div>
+
+						<q>
+						Linux is not in the public domain. <a href="">Linux is a cancer</a> that attaches itself in an intellectual property sense to everything it touches. That's the way that the license works
+						</q>
+						<aside class="notes">
+						image credits to wikipedia
+						</aside>
+					</section>
+					<section>
+						<p>
+						<img data-src="img/sparta1.png">
+
+						<aside class="notes">
+						image credits to https://www.flickr.com/photos/lifes__too_short__to__drink__cheap__wine/454738605
+						</aside>
+					</section>
+					<section>
+						<h2>Open Source Initiative</h2>
+						<p>
+						<img height="200" data-src="img/osi-logo.png">
+						</p>
+						<q>
+						promoting the development <a href="">methodology of open source software</a> 
+						</q>
+						<aside class="notes">
+						* Coined the term Open Source
+						* Open Source as a development methodology 
+						image credits to https://en.wikipedia.org/wiki/Open_Source_Initiative
+						</aside>
+					</section>
+					<section>
+						<h2>What is Open Source?</h2>
+						<p>
+						Open Source describes a <a href="">software license</a> that ensures <a href="">certain freedoms</a>
+						</p>
+
+						<aside class="notes">
+						source: J Aaron Farr - http://www.slideshare.net/jaaronfarr/making-open-source-work-presentation/30-Whats_the_differencebetween_free_software
+
+						image source: https://en.wikipedia.org/wiki/Open_Source_Initiative
+						</aside>
+					</section>
+				</section>
+
+				<section>
+					<section data-background="img/benefits-of-opensource.jpg">
+						<h2>Benefits of Open Source</h2>
+					</section>
+					<section>
+					<h2>Benefits of Open Source</h2>
+					<ul>
+						<li class="fragment">View and Modify the Software</li>
+						<li class="fragment">Free Distribution of the Software</li>
+						<li class="fragment">Learn from the code</li>
+						<li class="fragment">Fix the software and extend it on your own</li>
+					</ul>
+					</section>
+					<section>
+					<h2>Benefits of Open Source</h2>
+					<ul>
+						<li  class="fragment">Elevated sense of joy</li>
+					</ul>
+					<p>
+					<img class="fragment" data-src="img/idan-cheering.gif">
+					</p>
+					</section>
+					<section>
+					<h2>Benefits of Open Source</h2>
+					<h5> for Companies and Products</h5>
+					<ul>
+						<li class="fragment" >Re-use existing solutions, without re-inventing the wheel</li>
+						<li class="fragment" >Developer support and large community</li>
+						<li class="fragment" >Linus's Law: <a href=""> <q> "given enough eyeballs, all bugs are shallow" </q></a>
+						</li>
+					</ul>
+					<p>
+					<blockquote  class="fragment" >
+					the more widely available the source code is for public testing, scrutiny, and experimentation, the more rapidly all forms of bugs will be discovered
+					</blockquote>
+					</p>
+					</section>
+				</section>
+
+				<section>
+					<section data-background="img/make-an-impact.jpg">
+						<h2>How much impact can you make?</h2>
+						<p>with an  <a href="">open source</a> project?
+					</section>
+					<section>
+						<h2>How much impact can you make?</h2>
+						<img data-src="img/Linus_Torvalds.jpeg">
+						<aside class="notes">
+							source: wikipedia's history of linux
+						</aside>
+						</p>
+					</section>
+					<section>
+						<h2>How much impact can you make?</h2>
+						<p>
+						1991, Linus Torvald's e-mail on his new OS...
+						</p>
+						<img data-src="img/linus-on-linux.png">
+						<aside class="notes">
+						source: https://www.cs.cmu.edu/~awb/linux.history.html
+						</aside>
+					</section>
+					<section>
+						<h2>How much impact can you make?</h2>
+						<p class="fragment">
+						Back in 2007, I was doing a lot of embedded wireless development.
+						</p>
+						<p class="fragment">
+						We were missing an open source, web-based, Wi-Fi management solution
+						</p>
+					</section>
+					<section>
+						<h2>How much impact can you make?</h2>
+						<ul>
+							<li class="fragment">
+							No GitHub...
+							</li>
+							<li class="fragment">
+							<a href="http://www.sourceforge">SourceForge</a> and SVN (god forbid!) were the go-to open source toolset
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>How much impact can you make?</h2>
+						<p class="fragment">
+						The birth of <a href="http://www.daloradius.com">daloRADIUS</a>
+						<br/>
+						PHP, web-based management system for FreeRADIUS and MySQL
+						</p>
+						<p class="fragment">
+						My first significant, enterprise-scale open source endavour
+						</p>
+						<img class="fragment" width="300" height="" data-src="img/daloradius-logo.png" >
+					</section>
+					<section>
+						<h2>How much impact can you make?</h2>
+						<p>
+						<a href="http://www.daloradius.com">daloRADIUS</a> Web Interface
+						</p>
+						<img data-src="img/daloradius-web.png" >
+						<aside class="notes">
+						How the product looks like
+						</aside>
+					</section>
+					<section>
+						<h2>How much impact can you make?</h2>
+						<p>
+						<a href="http://www.daloradius.com">daloRADIUS</a> SourceForge Project
+						</p>
+						<img data-src="img/daloradius-sourceforge.png" >
+						<aside class="notes">
+						The "GitHub" of 2007
+						</aside>
+					</section>
+					<section>
+						<h2>How much impact can you make?</h2>
+						<p>
+						<a href="http://www.daloradius.com">daloRADIUS</a> A decade later
+						</p>
+						<img data-src="img/daloradius-downloads.png" >
+						<ul class="fragment">
+						<li>1000 weekly downloads</li>
+						<li>300,000 downloads</li>
+						</ul>
+					</section>
+					<section>
+						<h2><a href="">You can make an impact</a> too</h2>
+					</section>
+					<section>
+						<h2><a href="">You can bring change</a></h2>
+					</section>
+					<section>
+						<p>
+						If <span style="color: cyan">Internet Explorer</span> is brave enough</p>
+						<p>
+						to be your default browser</p>
+						<hr/>
+						<p>
+						You are brave enough</p>
+						<p>
+						to start an <span style="color: green">Open Source project</span>
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<h2>Why start an Open Source project?</h2>
+					<p class="fragment"> To scratch an itch</p>
+					<img class="fragment" height="130" data-src="img/scratch-an-itch.jpg">
+					<ul class="fragment">
+					<li>Missing tool or library</li>
+					<li>You create something of value that other users find useful</li>
+					<li>You thought of a better way to do something: <a href="http://git-scm.com">Git</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Where do we start?</h2>
+				</section>
+
+				<section>
+					<h2>GitHub</h2>
+					<p>The cyberspace of scratching itches with other people</p>
+					<img data-src="img/github.png">
+				</section>
+
+				<section>
+					<h2>GitHub</h2>
+					<p>"we make it easier to collaborate with others and share your projects with the universe"</p>
+					<img data-src="img/github.png">
+				</section>
+
+				<section>
+					<h2>GitHub Lingo</h2>
+					<ul>
+					<li class="fragment">Git</li>
+					<li class="fragment">Branch</li>
+						<li class="fragment">Fork</li>
+					<li class="fragment">Clone</li>
+					<li class="fragment">Pull</li>
+					<li class="fragment">Commit</li>
+					<li class="fragment">Push</li>
+					<li class="fragment">Pull Request (PR)</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>GitHub Workflow</h2>
+					<img data-src="img/github-workflow.png">
+					<p>source: <a href="https://guides.github.com/introduction/flow">guides.github.com</a></p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Why contribute to Open Source on GitHub?</h2>
+						<ul>
+						<li class="fragment">It feels good to give back</li>
+						<li class="fragment">Be a part of something bigger than you</li>
+						<li class="fragment">Establish actual real life experience</li>
+						<li class="fragment">(sometimes) Better than a resume</li>
+						<li class="fragment">Great way to make connections</li>
+						<li class="fragment">Gain exposure and personal branding</li>
+						</ul>
+					</section>
+					<section>
+						<h2>How to contribute to Open Source on GitHub?</h2>
+						<ul>
+						<li class="fragment">File a bug report</li>
+						<li class="fragment">Do a screencast or demo for a feature</li>
+						<li class="fragment">Write a tutorial</li>
+						<li class="fragment">Contribute to documentation</li>
+						<li class="fragment">Get involved in the issue queue</li>
+						</ul>
+					</section>
+				</section>
+
+				<section data-background="img/project-love.jpg">
+					<h2>Let's Give Some Love</h2>
+					<aside class="notes">
+						source image: https://www.pexels.com/photo/sun-warmth-heart-love-7544/
+					</aside>
+				</section>
+
+				<section>
+					<section>
+						<h2>This slide deck is Open Source too</h2>
+						<p  class="fragment">
+						How?!
+						</p>
+					</section>
+					<section>
+						<h2>This slide deck is Open Source too</h2>
+						<p>
+						It was created using a project called <a href="https://github.com/hakimel/reveal.js">reveal.js</a>
+						</p>
+						<p class="fragment">
+						You're welcome to fork my slides at <a href="https://github.com/lirantal/presentation-welcome-to-github">presentation-welcome-to-github</a> and suggest improvements, modifications, and updates as you see fit.
+						</p>
+					</section>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
