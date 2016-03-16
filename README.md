@@ -3,6 +3,7 @@
 ![image](https://cloud.githubusercontent.com/assets/316371/13825621/0f2a2d3c-ebbc-11e5-9993-a50d2c42c1fc.png)
 
 [View it online](http://lirantal.github.io/presentation-open-source-and-the-mean-stack/#/)
+Also [available](http://www.slideshare.net/LiranTal1) on slideshare.
 
 # Building the online presentation
 
