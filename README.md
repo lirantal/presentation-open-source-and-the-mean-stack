@@ -27,5 +27,9 @@ grunt serve
 Open the localhost or local machine IP in port 8000 to view the presentation: http://localhost:8000
 
 
+## Contributing
+
+Please consult [CONTRIBUTING](./CONTRIBUTING.md) for guidelines on contributing to this project.
+
 # Author
 [Liran Tal](https://www.linkedin.com/in/talliran) <liran.tal@gmail.com>
