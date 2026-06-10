@@ -1,4 +1,8 @@
 {
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
+  },
   "name": "reveal.js",
   "version": "3.2.0",
   "description": "The HTML Presentation Framework",
