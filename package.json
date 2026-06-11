@@ -1,8 +1,4 @@
 {
-  "publishConfig": {
-    "provenance": true,
-    "access": "public"
-  },
   "name": "reveal.js",
   "version": "3.2.0",
   "description": "The HTML Presentation Framework",
@@ -45,5 +41,9 @@
     "grunt": "~0.4.5",
     "node-sass": "~3.3.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
+  }
 }
