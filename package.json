@@ -19,7 +19,8 @@
     "url": "git://github.com/hakimel/reveal.js.git"
   },
   "engines": {
-    "node": "~4.1.1"
+    "npm": ">=11.10.0",
+    "node": ">=24.0.0"
   },
   "dependencies": {
     "express": "~4.13.3",
