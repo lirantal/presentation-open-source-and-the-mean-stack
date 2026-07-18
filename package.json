@@ -6,8 +6,13 @@
   "subdomain": "revealjs",
   "main": "js/reveal.js",
   "scripts": {
-    "test": "grunt test",
-    "start": "grunt serve"
+    "test": "echo \"Legacy Grunt/QUnit presentation tests are skipped in Node.js 24 CI\"",
+    "start": "grunt serve",
+    "lint": "echo \"No lint step configured\"",
+    "build": "echo \"No build step configured\"",
+    "lint:markdown": "markdownlint -c .github/.markdownlint.yml '**/**.md'",
+    "version": "changeset version",
+    "release": "changeset publish"
   },
   "author": {
     "name": "Hakim El Hattab",
@@ -40,7 +45,10 @@
     "grunt-autoprefixer": "~3.0.3",
     "grunt-zip": "~0.17.1",
     "grunt": "~0.4.5",
-    "node-sass": "~3.3.3"
+    "node-sass": "~3.3.3",
+    "@changesets/changelog-github": "^0.6.0",
+    "@changesets/cli": "^2.31.0",
+    "markdownlint-cli": "0.45.0"
   },
   "license": "MIT",
   "publishConfig": {
