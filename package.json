@@ -46,8 +46,8 @@
     "grunt-zip": "~1.0.0",
     "grunt": "~1.6.2",
     "node-sass": "~9.0.0",
-    "@changesets/changelog-github": "^0.7.0",
-    "@changesets/cli": "^2.31.0",
+    "@changesets/changelog-github": "^1.0.0",
+    "@changesets/cli": "^3.0.0",
     "markdownlint-cli": "0.49.1"
   },
   "license": "MIT",
