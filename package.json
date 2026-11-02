@@ -35,7 +35,7 @@
     "underscore": "~1.13.8"
   },
   "devDependencies": {
-    "grunt-contrib-qunit": "~10.2.0",
+    "grunt-contrib-qunit": "~11.0.0",
     "grunt-contrib-jshint": "~3.2.0",
     "grunt-contrib-cssmin": "~5.0.0",
     "grunt-contrib-uglify": "~5.2.2",
